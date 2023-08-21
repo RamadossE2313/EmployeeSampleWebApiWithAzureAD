@@ -27,4 +27,16 @@ When client send the request to web api with token (Bearer token), first we have
 5. Click Add a Permission an Api button --> Select My APIs --> Select WebApi and select Permission and click Add Permission button.
 6. Click Authentication button --> Click add a platform button and select singe page applications and provide redirect url (https://localhost:yourport/swagger/oauth2-redirect.html) and select access token(used for implicit flows).
 
+**.Net core application web api changes**
 
+https://github.com/RamadossE2313/EmployeeSampleWebApiWithAzureAD/blob/master/Program.cs
+
+**AppSetting.json**
+
+ "AzureAd": {
+    "Instance": "https://login.microsoftonline.com/",
+    "ClientId": "",
+    "TenantId": "",
+    "Scopes": "",
+    "SwaggerClientId": ""
+  }
