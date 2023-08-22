@@ -19,9 +19,11 @@ When client send the request to web api with token (Bearer token), first we have
    > EmployeeClientApp(Swagger)( webapplication with redirect uri)
    
 **(EmployeeWebApi app Registration)**
-2. Click Expose an Api button  --> Set application ID URI and click save button.
-3. Click Expose an Api button  --> Click add a scope button and provide the scope information and click add scope button.
-4. Click Expose an Api button  --> Click add a client application button and provide the clientapp(EmployeeClientApp(Swagger)) url and select the scope and click the add application. 
+<ul>
+	<li>Click Expose an Api button  --> Set application ID URI and click save button.</li>
+	<li>Click Expose an Api button  --> Click add a scope button and provide the scope information and click add scope button</li>
+	<li>Click Expose an Api button  --> Click add a client application button and provide the clientapp(EmployeeClientApp(Swagger)) url and select the scope and click the add application</li>
+</ul>
 
 **EmployeeClientApp(Swagger)**
 5. Click Add a Permission an Api button --> Select My APIs --> Select WebApi and select Permission and click Add Permission button.
