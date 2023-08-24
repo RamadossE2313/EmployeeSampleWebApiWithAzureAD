@@ -45,3 +45,5 @@ https://github.com/RamadossE2313/EmployeeSampleWebApiWithAzureAD/blob/master/Pro
 
 **Mistake:**
 <b>RedirecUrI: https://localhost:7279/swagger/oauth2-redirect.html</b>
+
+<h4>Blog Post: <a href="https://rishiram2313.blogspot.com/2023/08/securing-web-api-using-azure-ad-and.html">securing-web-api-using-azure-ad-and.html</a></h4>
